@@ -13,6 +13,6 @@ public class Main implements HttpFunction {
     @Override
     public void service(HttpRequest request, HttpResponse response) throws IOException {
         BufferedWriter writer = response.getWriter();
-        writer.write("Hello world!");
+        writer.write("Helloworld");
     }
 }

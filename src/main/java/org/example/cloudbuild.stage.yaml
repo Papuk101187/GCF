@@ -25,9 +25,9 @@ steps:
   id: DEPLOY
 
 substitutions:
-    _FUNCTION_PROJECT : STAG
+    _FUNCTION_PROJECT : stag
     _FUNCTION_NAME    : function-2
     _FUNCTION_REGION  : us-central1
-    _FUNCTION_RUNTIME : Java 11
+    _FUNCTION_RUNTIME : java11
     _ENTRY_POINT      : Helloworld
   
